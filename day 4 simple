@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,X,Y;
+	cin>>T;
+	for(int i=1;i<=T;i++)
+	{
+	    cin>>X;
+	    cin>>Y;
+	    if(X>=Y){
+	    cout<<Y*1<<endl;
+	    }
+	    else if(X<Y){
+	        cout<<X+(Y-X)*2<<endl;
+	    }
+	}
+	return 0;
+}
