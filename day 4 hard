@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int t;
+   cin>>t;
+   for(int i = 1;i<=t;i++)
+   
+   {
+       int l1,v1,v2;
+       cin>>l1>>v1>>v2;
+       int s_t,s_h;
+       s_t=(l1+v1-1)/v1;
+       s_h=(l1+v2-1)/v2;
+       if(s_t==s_h)
+       {
+           cout<<"-1"<<endl;
+       }
+       else
+       {
+           cout<<s_t-s_h-1<<endl;
+       }
+   }
+   	return 0;
+}
