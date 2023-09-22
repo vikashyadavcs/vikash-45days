@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,X,Y;
+	cin>>T;
+	for(int i=1;i<=T;i++)
+	{
+	    cin>>X;
+	    cin>>Y;
+	    if(Y==X)
+	    {
+	        cout<<X-Y<<endl;
+	    }
+	    else if(X>Y)
+	    {
+	        cout<<X-Y<<endl;
+	    }
+	    else
+	    {
+	       cout<<X/Y<<endl; 
+	    }
+	    
+	}
+	return 0;
+}
