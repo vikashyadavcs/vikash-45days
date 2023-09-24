@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	for(int i=1;i<=T;i++)
+	{
+	    int pa,pb,pc;
+	    cin>>pa>>pb>>pc;
+	if(pb<=pa+pc)
+	{
+	    cout<<pa+pc<<endl;
+	}
+	else
+	{
+	    cout<<pb<<endl;
+	}
+	}
+	return 0;
+}
