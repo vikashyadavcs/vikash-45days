@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	for(int i=1;i<=T;i++)
+	{
+	    int X,Y;
+	    cin>>X>>Y;
+	        cout<<(Y-1)/X<<endl;
+	}
+	return 0;
+}
+
+
+code 2
+ #include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	for(int i=1;i<=n;i++){
+	    int a, b, c, d, e, p, f;
+	    cin>>a>>b>>c>>d>>e>>p;
+	    f=p*(a+b+c+d+e);
+	    if(f<=120){
+	        cout<<"No"<<endl;
+	    }
+	    else{
+	        cout<<"Yes"<<endl;
+	    }
+	}
+	return 0;
+} 
