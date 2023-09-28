@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int T;
+   cin>>T;
+   int X,Y;
+   for (int i=1;i<=T;i++)
+   {
+       cin>>X;
+       cin>>Y;
+      cout<<X/(Y*2)<<endl;
+   
+   }
+	return 0;
+}
+
